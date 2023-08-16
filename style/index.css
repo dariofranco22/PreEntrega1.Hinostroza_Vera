@@ -41,6 +41,26 @@ h2 {
     margin: 20px 20px 10px ;
 }
 
-.tabla {
-     color: black;
+.responsive {
+  display: none;
+}
+
+
+@media only screen and (max-width:700px) {
+    .responsive {
+        display: block;
+        display: grid;
+        place-items: center;
+        margin: auto;
+      }
+
+
+      .noresponsive {
+        display: none;
+      }
+      
+    .carousel-inner {
+     width: 500px;
+    }
+
 }
